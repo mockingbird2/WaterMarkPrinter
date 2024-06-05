@@ -3,15 +3,15 @@ A PIL based adjustable batch watermark addition command-line tool
 
 ## 简介
 
-这是作者自用的基于Python PIL库的批量水印添加命令行工具。这个工具有以下几个特点：
+自用的基于Python PIL库的批量水印添加命令行工具。该工具有以下几个特点：
 1. 适用于大批量图片的水印添加。
-2. 水印会根据图片的尺寸自动调整长度或宽度。
+2. 水印会根据图片的尺寸自动调整大小。
 3. 支持调整水印尺寸大小，位置和透明度。
 
 ## 开始使用
 
 ### 安装依赖
-运行以下两行代码，安装本工具使用的依赖
+在命令行中运行以下两行代码，安装依赖
 ```
   pip install pillow
   pip install numpy
@@ -119,3 +119,12 @@ python WaterMarkPrinter.py ./ mark.png -x center -j 70 -t 0.6 -s 0.25
   <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_3.jpg" width="250" height="295" />
   <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_4.jpg" width="400" height="182" />
 </div>
+
+## 编译EXE
+
+**考虑到使用的便利性，我在这个库中提供了编译后的.exe执行文件。用户可自行下载并添加到Window系统的环境变量中，方便后续使用。（相关问题请自行搜索，这里不再赘述）**
+
+用户也可以通过以下步骤自行编译：
+
+1. 安装pyinstaller包 `pip install pyinstaller`
+2. 在命令行中执行编译指令 `pyinstaller -F -i icon.ico WaterMarkPrinter.py`
