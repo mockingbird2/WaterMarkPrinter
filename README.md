@@ -21,6 +21,7 @@ A PIL based adjustable batch watermark addition command-line tool
 ```
 python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,center,end}] [-i OFFSETX] [-j OFFSETY] [-t TRANSPARENCY] [-s SCALE]
 ```
+
 **执行该命令行工具需要传入两个必要参数`path`和`watermark`，以下是对相关参数的解释：**
 
 `path`: 传入图片所在的文件夹地址
@@ -28,13 +29,21 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 `watermark`: 传入水印地址
 
 **此外，还可以通过传入一些选项来控制水印的表现，以下是对相关参数的解释：**
+
 `-x`或`--alignx`: 控制水印在x轴的对齐方式，支持三个参数：`start` 左边，`center` 居中，`end` 右边，默认传入`start`
+
 `-y`或`--aligny`: 控制水印在y轴的对齐方式，支持三个参数：`start` 顶部，`center` 居中，`end` 底部，默认传入`start`
+
 `-i`或`--offsetx`: 控制水印在x轴的偏移量，取值-100-100，与对齐方式可以叠加，默认传入0，它与`-x`或`--alignx`的区别如下:
+
 > `-i 0`或`--offsetx 0`等价于`-x start`或`--alignx start`
+
 > `-i 50`或`--offsetx 50`等价于`-x center`或`--alignx center`
+
 > `-i 100`或`--offsetx 100`等价于`-x end`或`--alignx end`
+
 > `-x end -i -100`或`--alignx end --offsetx -100`等价于`-x start`或`--alignx start`
+
 `-j`或`--offsety`: 控制水印在y轴的偏移量，取值-100-100，与对齐方式可以叠加，默认传入0，它与`-y`或`--aligny`的区别如下:
 > `-j 0`或`--offsety 0`等价于`-y start`或`--aligny start`
 > `-j 50`或`--offsety 50`等价于`-y center`或`--aligny center`
