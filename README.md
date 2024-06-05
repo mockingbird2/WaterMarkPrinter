@@ -124,7 +124,7 @@ python WaterMarkPrinter.py ./ mark.png -x center -j 70 -t 0.6 -s 0.25
 
 **考虑到使用的便利性，用户可自行通过pyinstaller包编译EXE执行文件并添加到Window系统的环境变量中，方便后续使用。（相关问题请自行搜索，这里不再赘述）**
 
-**我在下面提供了编译好的，也可以直接下载食用>^<**
+**下面提供了编译好的，也可以直接下载食用>^<**
 
 通过以下命令自行编译：
 
@@ -139,6 +139,8 @@ pip install pyinstaller
 ```
 pyinstaller -F -i icon.ico WaterMarkPrinter.py
 ```
+
+**文件链接**
 
 百度云: [https://pan.baidu.com/s/1zduGpMzvqa29LRNZbYXVUA?pwd=0605](https://pan.baidu.com/s/1zduGpMzvqa29LRNZbYXVUA?pwd=0605)
 
