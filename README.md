@@ -29,6 +29,7 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 
 `watermark`: 传入水印地址
 
+***
 
 **此外，还可以通过传入一些选项来控制水印的表现，以下是对相关参数的解释：**
 
@@ -60,6 +61,7 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 
 `-s`或`--scale`: 控制水印的尺寸，取值0.0-1.0，默认传入1
 
+***
 
 **以下是一个例子**
   python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
