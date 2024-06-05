@@ -86,3 +86,16 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 **水印**
 
 <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/mark.jpg" width="128" height="128" />
+<br><br>
+
+**效果图**
+
+<div style="display: flex;">
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark1.jpg" width="350" height="234" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2.png" width="350" height="234" />
+</div>
+
+<div style="display: flex;">
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark3.jpg" width="250" height="295" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark4.jpg" width="400" height="182" />
+</div>
