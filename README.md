@@ -64,5 +64,10 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 ***
 
 **以下是一个例子**
-  python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
-原图
+
+```
+python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
+```
+
+**原图**
+
