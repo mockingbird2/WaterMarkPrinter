@@ -81,4 +81,5 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 </div>
 
 **水印**
+
 <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/mark.jpg" width="128" height="128" />
