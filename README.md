@@ -69,7 +69,9 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 ```
 <br>
+
 **原图**
+
 <br><br>
 <div style="display: flex;">
   <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img1.jpg" width="450" height="300" />
@@ -80,6 +82,8 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
   <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img4.jpg" width="600" height="272" />
 </div>
 <br><br>
+
 **水印**
+
 <br><br>
 <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/mark.jpg" width="128" height="128" />
