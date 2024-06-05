@@ -132,7 +132,7 @@ python WaterMarkPrinter.py ./ mark.png -x center -j 70 -t 0.6 -s 0.25
 pip install pyinstaller
 ```
 
-2. 在命令行中执行编译指令
+2. 执行编译指令
 
 ```
 pyinstaller -F -i icon.ico WaterMarkPrinter.py
