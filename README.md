@@ -140,6 +140,6 @@ pip install pyinstaller
 pyinstaller -F -i icon.ico WaterMarkPrinter.py
 ```
 
-[百度云](https://pan.baidu.com/s/1zduGpMzvqa29LRNZbYXVUA?pwd=0605)
+百度云: [https://pan.baidu.com/s/1zduGpMzvqa29LRNZbYXVUA?pwd=0605](https://pan.baidu.com/s/1zduGpMzvqa29LRNZbYXVUA?pwd=0605)
 
 提取码: ```0605```
