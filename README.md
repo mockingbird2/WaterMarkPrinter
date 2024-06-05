@@ -111,11 +111,11 @@ python WaterMarkPrinter.py ./ mark.png -x center -j 70 -t 0.6 -s 0.25
 **效果图**
 
 <div style="display: flex;">
-  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark1.jpg" width="350" height="234" />
-  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2.png" width="350" height="234" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_1.jpg" width="350" height="234" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_2.png" width="350" height="234" />
 </div>
 
 <div style="display: flex;">
-  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark3.jpg" width="250" height="295" />
-  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark4.jpg" width="400" height="182" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_3.jpg" width="250" height="295" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img_mark2_4.jpg" width="400" height="182" />
 </div>
