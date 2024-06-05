@@ -79,7 +79,7 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 
 <div style="display: flex; flex-direction: row;">
   <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img3.jpg" width="250" height="295" />
-  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img4.jpg" width="600" height="272" />
+  <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img4.jpg" width="350" height="159" />
 </div>
 <br><br>
 
