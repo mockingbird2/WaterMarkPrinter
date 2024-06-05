@@ -70,4 +70,4 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 ```
 
 **原图**
-
+![](https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img1.jpg)
