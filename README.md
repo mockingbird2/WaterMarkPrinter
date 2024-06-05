@@ -12,8 +12,10 @@ A PIL based adjustable batch watermark addition command-line tool
 
 ### 安装依赖
 运行以下两行代码，安装本工具使用的依赖
-  `pip install pillow`
-  `pip install numpy`
+```
+  pip install pillow
+  pip install numpy
+```
 
 ### 如何使用
   python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,center,end}] [-i OFFSETX] [-j OFFSETY] [-t TRANSPARENCY] [-s SCALE]
