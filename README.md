@@ -18,7 +18,9 @@ A PIL based adjustable batch watermark addition command-line tool
 ```
 
 ### 如何使用
-  python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,center,end}] [-i OFFSETX] [-j OFFSETY] [-t TRANSPARENCY] [-s SCALE]
+```
+python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,center,end}] [-i OFFSETX] [-j OFFSETY] [-t TRANSPARENCY] [-s SCALE]
+```
 **执行该命令行工具需要传入两个必要参数`path`和`watermark`，以下是对相关参数的解释：**
 
 `path`: 传入图片所在的文件夹地址
