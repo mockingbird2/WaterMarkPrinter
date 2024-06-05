@@ -72,3 +72,4 @@ python WaterMarkPrinter.py ./ mark.png -x end -y end -s 0.25
 **原图**
 
 <img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img1.jpg" width="300" height="200" />
+<img src="https://github.com/mockingbird2/WaterMarkPrinter/blob/main/images/img2.jpg" width="300" height="200" />
