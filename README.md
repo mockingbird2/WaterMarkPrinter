@@ -47,7 +47,7 @@ python WaterMarkPrinter.py path watermark [-x {start,center,end}] [-y {start,cen
 
 * `-x end -i -100`或`--alignx end --offsetx -100`等价于`-x start`或`--alignx start`
 
-`-j`或`--offsety`: 控制水印在y轴的偏移量，取值-100-100，与对齐方式可以叠加，默认传入0，它与`-y`或`--aligny`的区别如下:
+`-j`或`--offsety`: 控制水印在y轴的偏移量，建议取值-200-200，与对齐方式可以叠加，默认传入0，它与`-y`或`--aligny`的区别如下:
 
 * `-j 0`或`--offsety 0`等价于`-y start`或`--aligny start`
 
