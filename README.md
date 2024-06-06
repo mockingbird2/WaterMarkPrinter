@@ -12,10 +12,13 @@ A PIL based adjustable batch watermark addition command-line tool
 
 ### 安装依赖
 在命令行中运行以下代码，安装依赖
+
 ```
 pip install pillow
-pip install numpy
+```
 
+```
+pip install numpy
 ```
 
 ### 如何使用
