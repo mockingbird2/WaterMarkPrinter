@@ -15,6 +15,7 @@ A PIL based adjustable batch watermark addition command-line tool
 ```
 pip install pillow
 pip install numpy
+
 ```
 
 ### 如何使用
